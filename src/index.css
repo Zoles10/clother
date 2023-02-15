@@ -1,0 +1,96 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.app{
+    background-color: white;
+    color: #343434;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+    background-color: #343434;
+    color: aqua;
+}
+
+.title{
+    margin:auto;
+}
+
+
+.app--header--under{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+
+.app--header--under--search, .app--header--under--title {
+    width: 10%;
+    margin: auto;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    padding-top: -15;
+    padding: 15px;
+    box-shadow: -2px 2px 2px 0px #343434;
+    display: flex;
+    justify-content:center;
+}
+
+.filterCheckbox{
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.app--items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    align-content: center;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.item--img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    border-radius: 15px;
+    width: 250px;
+
+}
+
+.item--title, .item--price{
+    font-size: 15px;
+    margin: auto;
+}
+
+.item--title{
+    font-weight: bold;
+}
